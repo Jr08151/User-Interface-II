@@ -1,1 +1,231 @@
 /* Add CSS styling here */
+body {
+    background-color: #ffffff;
+    font-family: Tahoma;
+    margin: 0;
+  }
+  
+  header {
+    font-size: 0;
+    height: auto;
+    width: auto;
+  }
+  
+  header .sitename {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+  }
+  
+  header .sitename h1 {
+    padding: 20px;
+    font-size: 50px;
+    font-weight: 50;
+    text-transform: uppercase;
+    margin: 0px;
+  }
+  
+  header .links {
+    display: flex;
+    justify-content: center;
+    width: 429px;
+    margin: 0px auto;
+  }
+  
+  header .links nav {
+    width: 429px;
+  }
+  
+  header .links nav a {
+    display: inline-block;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 1px solid black;
+    margin: 0px;
+    color: black;
+    text-transform: capitalize;
+  }
+  
+  header .links nav a:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  section .intro {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }
+  
+  .intro h2 {
+    width: auto;
+    font-size: 50px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin: 0px;
+  }
+  
+  .intro {
+    margin: 50px auto;
+    width: 80%;
+    line-height: 35px;
+  }
+  
+  .intro p {
+    padding: 4.50%;
+    font-size: 16px;
+  }
+  
+  img {
+    height: auto;
+  }
+  
+  .intro img {
+    object-fit: cover;
+    width: 200%;
+    height: 560px;
+    }
+  
+  .picture-row {
+    display: flex;
+    margin: 25px 0px;
+  }
+  
+  .picture-row img {
+    object-fit: cover;
+    width: 325px;
+    height: 725px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.26), 0 8px 40px 0 rgba(0, 0, 0, 0.356);
+  }
+  
+  #picture-1-img {
+    margin: 0px;
+  }
+  
+  #picture-1-img:hover {
+    filter: brightness(70%);
+    transform: scale(1.1);
+    transition: all 0.9s ease-in-out;
+  }
+  
+  #picture-2-img {
+    margin-left: 25px;
+  }
+  
+  #picture-2-img:hover {
+    filter: brightness(50%);
+    transform: scale(1.1);
+    transition: all 0.9s ease-in-out;
+  }
+  
+  #picture-3-img {
+    margin-left: 25px;
+  }
+  
+  #picture-3-img:hover {
+    filter: brightness(35%);
+    transform: scale(1.1);
+    transition: all 0.9s ease-in-out;
+  }
+  
+  #picture-4-img {
+    margin-left: 25px;
+  }
+  
+  #picture-4-img:hover {
+    filter: brightness(30%);
+    transform: scale(1.1);
+    transition: all 0.9s ease-in-out;
+  }
+  
+  .picture-row .picture-info {
+    margin: auto;
+    text-align: center;
+    width: 175px;
+    line-height: 35px;
+    font-size: 16px;
+  }
+  
+  .intro {
+    text-align: center;
+  }
+  
+  .selfie {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+  }
+  
+  .selfie img {
+    width: 10%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  #about-info {
+    margin-top: 25px;
+  }
+  
+  #contact-text {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  
+  .container .contact-info {
+    width: 137px;
+    height: auto;
+    
+  }
+  
+  .container .contact-info a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 25px 0px;
+    color: black;
+    text-transform: capitalize;
+    background-color: white;
+    width: 75px;
+    text-align: center;
+  }
+  
+  .about-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 225px;
+  }
+  
+  footer div.contact-me {
+    /* text-align: center; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #dbdbdb;
+    width: 100%;
+    height: 225px;
+  }
+  
+  footer div.contact-me a {
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 1px solid black;
+    margin: 0px 25px;
+    color: black;
+    text-transform: capitalize;
+    background-color: white;
+  }
+  
