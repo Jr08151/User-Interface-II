@@ -48,9 +48,14 @@ body {
   }
   
   header .links nav a:hover {
-    background-color: black;
-    color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* background-color: black; */
+    /* color: white; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+      filter: brightness(70%);
+      transform: scale(3.1);
+      transition: all 0.9s ease-in-out;
+      background-color: black;
+      color: white;
   }
   
   section .intro {
