@@ -19,7 +19,7 @@ body {
   
   header .sitename h1 {
     padding: 20px;
-    font-size: 50px;
+    font-size: 3.5rem;
     font-weight: 50;
     text-transform: uppercase;
     margin: 0px;
@@ -38,7 +38,7 @@ body {
   
   header .links nav a {
     display: inline-block;
-    font-size: 15px;
+    font-size: .9rem;
     text-decoration: none;
     padding: 10px 30px;
     border: 1px solid black;
@@ -64,7 +64,7 @@ body {
   
   .intro h2 {
     width: auto;
-    font-size: 50px;
+    font-size: 3.0rem;
     font-weight: 100;
     text-transform: uppercase;
     margin: 0px;
@@ -78,7 +78,7 @@ body {
   
   .intro p {
     padding: 4.50%;
-    font-size: 16px;
+    font-size: 1.0rem;
   }
   
   img {
@@ -148,7 +148,7 @@ body {
     text-align: center;
     width: 175px;
     line-height: 35px;
-    font-size: 16px;
+    font-size: 1.0rem;
   }
   
   .intro {
@@ -187,7 +187,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    font-size: 15px;
+    font-size: 1.5rem;
     text-decoration: none;
     padding: 10px 30px;
     border: 1px solid black;
@@ -219,7 +219,7 @@ body {
   }
   
   footer div.contact-me a {
-    font-size: 15px;
+    font-size: 1.5rem;
     text-decoration: none;
     padding: 10px 30px;
     border: 1px solid black;
@@ -229,3 +229,27 @@ body {
     background-color: white;
   }
   
+@media (max-width: 800px){
+  .intro-img {
+    flex-wrap: wrap;
+  }
+  .picture-row {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 500px){
+  .intro-img {
+    flex-wrap: wrap;
+  }
+  .picture-row {
+    flex-wrap: wrap;
+  }
+  .sitename {
+    flex-wrap: wrap;
+  }
+  .intro h2 {
+    padding: 10px;
+    text-justify: auto;
+  }
+}
