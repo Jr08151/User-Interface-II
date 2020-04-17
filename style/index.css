@@ -245,7 +245,9 @@ body {
 
 @media (max-width: 500px){
   .intro-img {
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    object-fit: scale-down;
+    background-image: url(https://picsum.photos/200);
   }
   .picture-row {
     flex-wrap: wrap;
